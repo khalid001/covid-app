@@ -9,7 +9,7 @@ export default class Header extends Component {
           {/* Left navbar links */}
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link" data-widget="pushmenu" href="#" role="button">
+              <a className="nav-link" data-widget="pushmenu" href="fake_url" role="button">
                 <i className="fas fa-bars" />
               </a>
             </li>
@@ -19,7 +19,7 @@ export default class Header extends Component {
               </a>
             </li>
             <li className="nav-item d-none d-sm-inline-block">
-              <a href="#" className="nav-link">
+              <a href="fake_url" className="nav-link">
                 Contact
               </a>
             </li>
@@ -39,12 +39,12 @@ export default class Header extends Component {
           <ul className="navbar-nav ml-auto">
             {/* Messages Dropdown Menu */}
             <li className="nav-item dropdown">
-              <a className="nav-link" data-toggle="dropdown" href="#">
+              <a className="nav-link" data-toggle="dropdown" href="fake_url">
                 <i className="far fa-comments" />
                 <span className="badge badge-danger navbar-badge">3</span>
               </a>
               <div className="dropdown-menu dropdown-menu-lg dropdown-menu-right">
-                <a href="#" className="dropdown-item">
+                <a href="fake_url" className="dropdown-item">
                   {/* Message Start */}
                   <div className="media">
                     <img src="dist/img/user1-128x128.jpg" alt="User Avatar" className="img-size-50 mr-3 img-circle" />
@@ -64,7 +64,7 @@ export default class Header extends Component {
                   {/* Message End */}
                 </a>
                 <div className="dropdown-divider" />
-                <a href="#" className="dropdown-item">
+                <a href="fake_url" className="dropdown-item">
                   {/* Message Start */}
                   <div className="media">
                     <img src="dist/img/user8-128x128.jpg" alt="User Avatar" className="img-size-50 img-circle mr-3" />
@@ -84,7 +84,7 @@ export default class Header extends Component {
                   {/* Message End */}
                 </a>
                 <div className="dropdown-divider" />
-                <a href="#" className="dropdown-item">
+                <a href="fake_url" className="dropdown-item">
                   {/* Message Start */}
                   <div className="media">
                     <img src="dist/img/user3-128x128.jpg" alt="User Avatar" className="img-size-50 img-circle mr-3" />
@@ -104,42 +104,42 @@ export default class Header extends Component {
                   {/* Message End */}
                 </a>
                 <div className="dropdown-divider" />
-                <a href="#" className="dropdown-item dropdown-footer">
+                <a href="fake_url" className="dropdown-item dropdown-footer">
                   See All Messages
                 </a>
               </div>
             </li>
             {/* Notifications Dropdown Menu */}
             <li className="nav-item dropdown">
-              <a className="nav-link" data-toggle="dropdown" href="#">
+              <a className="nav-link" data-toggle="dropdown" href="fake_url">
                 <i className="far fa-bell" />
                 <span className="badge badge-warning navbar-badge">15</span>
               </a>
               <div className="dropdown-menu dropdown-menu-lg dropdown-menu-right">
                 <span className="dropdown-item dropdown-header">15 Notifications</span>
                 <div className="dropdown-divider" />
-                <a href="#" className="dropdown-item">
+                <a href="fake_url" className="dropdown-item">
                   <i className="fas fa-envelope mr-2" /> 4 new messages
                   <span className="float-right text-muted text-sm">3 mins</span>
                 </a>
                 <div className="dropdown-divider" />
-                <a href="#" className="dropdown-item">
+                <a href="fake_url" className="dropdown-item">
                   <i className="fas fa-users mr-2" /> 8 friend requests
                   <span className="float-right text-muted text-sm">12 hours</span>
                 </a>
                 <div className="dropdown-divider" />
-                <a href="#" className="dropdown-item">
+                <a href="fake_url" className="dropdown-item">
                   <i className="fas fa-file mr-2" /> 3 new reports
                   <span className="float-right text-muted text-sm">2 days</span>
                 </a>
                 <div className="dropdown-divider" />
-                <a href="#" className="dropdown-item dropdown-footer">
+                <a href="fake_url" className="dropdown-item dropdown-footer">
                   See All Notifications
                 </a>
               </div>
             </li>
             <li className="nav-item">
-              <a className="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
+              <a className="nav-link" data-widget="control-sidebar" data-slide="true" href="fake_url" role="button">
                 <i className="fas fa-th-large" />
               </a>
             </li>

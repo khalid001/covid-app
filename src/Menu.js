@@ -15,10 +15,10 @@ export default class Menu extends Component {
       {/* Sidebar user panel (optional) */}
       <div className="user-panel mt-3 pb-3 mb-3 d-flex">
         <div className="image">
-          <img src="dist/img/user2-160x160.jpg" className="img-circle elevation-2" alt="User Image" />
+          <img src="dist/img/user2-160x160.jpg" className="img-circle elevation-2" alt="User" />
         </div>
         <div className="info">
-          <a href="#" className="d-block">Alexander Pierce</a>
+          <a href="fake_url" className="d-block">Alexander Pierce</a>
         </div>
       </div>
       {/* Sidebar Menu */}
@@ -27,7 +27,7 @@ export default class Menu extends Component {
           {/* Add icons to the links using the .nav-icon class
          with font-awesome or any other icon font library */}
           <li className="nav-item has-treeview menu-open">
-            <a href="#" className="nav-link active">
+            <a href="fake_url" className="nav-link active">
               <i className="nav-icon fas fa-tachometer-alt" />
               <p>
                 Dashboard
@@ -65,7 +65,7 @@ export default class Menu extends Component {
             </a>
           </li>
           <li className="nav-item has-treeview">
-            <a href="#" className="nav-link">
+            <a href="fake_url" className="nav-link">
               <i className="nav-icon fas fa-copy" />
               <p>
                 Layout Options
@@ -119,7 +119,7 @@ export default class Menu extends Component {
             </ul>
           </li>
           <li className="nav-item has-treeview">
-            <a href="#" className="nav-link">
+            <a href="fake_url" className="nav-link">
               <i className="nav-icon fas fa-chart-pie" />
               <p>
                 Charts
@@ -148,7 +148,7 @@ export default class Menu extends Component {
             </ul>
           </li>
           <li className="nav-item has-treeview">
-            <a href="#" className="nav-link">
+            <a href="fake_url" className="nav-link">
               <i className="nav-icon fas fa-tree" />
               <p>
                 UI Elements
@@ -207,7 +207,7 @@ export default class Menu extends Component {
             </ul>
           </li>
           <li className="nav-item has-treeview">
-            <a href="#" className="nav-link">
+            <a href="fake_url" className="nav-link">
               <i className="nav-icon fas fa-edit" />
               <p>
                 Forms
@@ -242,7 +242,7 @@ export default class Menu extends Component {
             </ul>
           </li>
           <li className="nav-item has-treeview">
-            <a href="#" className="nav-link">
+            <a href="fake_url" className="nav-link">
               <i className="nav-icon fas fa-table" />
               <p>
                 Tables
@@ -289,7 +289,7 @@ export default class Menu extends Component {
             </a>
           </li>
           <li className="nav-item has-treeview">
-            <a href="#" className="nav-link">
+            <a href="fake_url" className="nav-link">
               <i className="nav-icon far fa-envelope" />
               <p>
                 Mailbox
@@ -318,7 +318,7 @@ export default class Menu extends Component {
             </ul>
           </li>
           <li className="nav-item has-treeview">
-            <a href="#" className="nav-link">
+            <a href="fake_url" className="nav-link">
               <i className="nav-icon fas fa-book" />
               <p>
                 Pages
@@ -377,7 +377,7 @@ export default class Menu extends Component {
             </ul>
           </li>
           <li className="nav-item has-treeview">
-            <a href="#" className="nav-link">
+            <a href="fake_url" className="nav-link">
               <i className="nav-icon far fa-plus-square" />
               <p>
                 Extras
@@ -468,13 +468,13 @@ export default class Menu extends Component {
           </li>
           <li className="nav-header">MULTI LEVEL EXAMPLE</li>
           <li className="nav-item">
-            <a href="#" className="nav-link">
+            <a href="fake_url" className="nav-link">
               <i className="fas fa-circle nav-icon" />
               <p>Level 1</p>
             </a>
           </li>
           <li className="nav-item has-treeview">
-            <a href="#" className="nav-link">
+            <a href="fake_url" className="nav-link">
               <i className="nav-icon fas fa-circle" />
               <p>
                 Level 1
@@ -483,13 +483,13 @@ export default class Menu extends Component {
             </a>
             <ul className="nav nav-treeview">
               <li className="nav-item">
-                <a href="#" className="nav-link">
+                <a href="fake_url" className="nav-link">
                   <i className="far fa-circle nav-icon" />
                   <p>Level 2</p>
                 </a>
               </li>
               <li className="nav-item has-treeview">
-                <a href="#" className="nav-link">
+                <a href="fake_url" className="nav-link">
                   <i className="far fa-circle nav-icon" />
                   <p>
                     Level 2
@@ -498,19 +498,19 @@ export default class Menu extends Component {
                 </a>
                 <ul className="nav nav-treeview">
                   <li className="nav-item">
-                    <a href="#" className="nav-link">
+                    <a href="fake_url" className="nav-link">
                       <i className="far fa-dot-circle nav-icon" />
                       <p>Level 3</p>
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a href="#" className="nav-link">
+                    <a href="fake_url" className="nav-link">
                       <i className="far fa-dot-circle nav-icon" />
                       <p>Level 3</p>
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a href="#" className="nav-link">
+                    <a href="fake_url" className="nav-link">
                       <i className="far fa-dot-circle nav-icon" />
                       <p>Level 3</p>
                     </a>
@@ -518,7 +518,7 @@ export default class Menu extends Component {
                 </ul>
               </li>
               <li className="nav-item">
-                <a href="#" className="nav-link">
+                <a href="fake_url" className="nav-link">
                   <i className="far fa-circle nav-icon" />
                   <p>Level 2</p>
                 </a>
@@ -526,26 +526,26 @@ export default class Menu extends Component {
             </ul>
           </li>
           <li className="nav-item">
-            <a href="#" className="nav-link">
+            <a href="fake_url" className="nav-link">
               <i className="fas fa-circle nav-icon" />
               <p>Level 1</p>
             </a>
           </li>
           <li className="nav-header">LABELS</li>
           <li className="nav-item">
-            <a href="#" className="nav-link">
+            <a href="fake_url" className="nav-link">
               <i className="nav-icon far fa-circle text-danger" />
               <p className="text">Important</p>
             </a>
           </li>
           <li className="nav-item">
-            <a href="#" className="nav-link">
+            <a href="fake_url" className="nav-link">
               <i className="nav-icon far fa-circle text-warning" />
               <p>Warning</p>
             </a>
           </li>
           <li className="nav-item">
-            <a href="#" className="nav-link">
+            <a href="fake_url" className="nav-link">
               <i className="nav-icon far fa-circle text-info" />
               <p>Informational</p>
             </a>
