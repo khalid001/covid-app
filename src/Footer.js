@@ -6,7 +6,7 @@ export default class Footer extends Component {
       <div>
         <footer className="main-footer">
           <strong>
-            Copyright © 2014-2019 <a href="http://adminlte.io">AdminLTE.io</a>.
+            Copyright © 2014-2019 <a href="http://umair-ashraf.dev">AdminLTE.io</a>.
           </strong>
           All rights reserved.
           <div className="float-right d-none d-sm-inline-block">
