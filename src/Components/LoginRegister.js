@@ -34,7 +34,7 @@ export default function LoginRegister({ userinfo2 }) {
         </div>
 
         <div className="box-controller-input" style={{ paddingTop: "0px", marginTop: "0px" }}>
-          <div style={{ maxHeight: "55rem", minHeight: "39rem", justifyContent: "left" }}>
+          <div style={{ maxHeight: "55rem",  justifyContent: "left" }}>
             {login && <Formlogin />} {register && <Formregister />}
           </div>
         </div>
