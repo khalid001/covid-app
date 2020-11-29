@@ -66,11 +66,11 @@ export default function Formregister() {
   return (
     <div style={{ Height: "34rem", marginLeft: "0px", justifyContent: "left" }}>
       {
-        <form style={{ width: "100% " }} method="POST" className="formstyle" onSubmit={credentialVerify}>
+        <form style={{ width: "21rem " }} method="POST" className="formstyle" onSubmit={credentialVerify}>
           <div style={{ paddingLeft: "0%", paddingRight: "5%", marginLeft: "0", marginRight: "2%" }} className="form-group row">
             {" "}
             <label
-              style={{ paddingRight: "22rem", display: "flex", whiteSpace: "nowrap", fontSize: "1.9rem" }}
+              style={{ paddingRight: "8em", display: "flex", whiteSpace: "nowrap", fontSize: "1.9rem" }}
               className="col-lg-3 col-form-label form-check-label"
               for="enterEmail"
             >
