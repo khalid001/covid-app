@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useMemo } from "react";
 import "../Css/App.css";
 import { Link } from "react-router-dom";
-// import Formlogin from "./Formlogin";
-// import Formregister from "./Formregister";
+import Formlogin from "./Formlogin";
+import Formregister from "./Formregister";
 
 export default function LoginRegister({ userinfo2 }) {
   const [login, setlogin] = useState(true);
@@ -35,7 +35,7 @@ export default function LoginRegister({ userinfo2 }) {
 
         <div className="box-controller-input" style={{ paddingTop: "0px", marginTop: "0px" }}>
           <div style={{ maxHeight: "55rem", minHeight: "39rem", justifyContent: "left" }}>
-            {/* {login && <Formlogin />} {register && <Formregister />} */}
+            {login && <Formlogin />} {register && <Formregister />}
           </div>
         </div>
       </div>
